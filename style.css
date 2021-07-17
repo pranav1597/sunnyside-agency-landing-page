@@ -124,18 +124,20 @@ body{
 
 .more-info::after{
     display: block;
-    position: absolute;
+   
     content: "";
     width: 140px;
     height: 8px;
     margin-top: -7px;
     border-radius: 10px;
     z-index: -1;
-    left: 100px;
+    
 }
 
 .more-info--two::after{
     background-color: hsl(51, 100%, 49%);
+    position: absolute;
+    left: 35%;
 }
 
 .section-heading,.section-details,.section-link{
